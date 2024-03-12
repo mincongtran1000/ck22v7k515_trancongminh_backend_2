@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 const express = require("express");
 const cors = require("cors");
+
 const app = express();
 const contactsRouter = require("./app/routes/contact.route");
 app.use(cors());
